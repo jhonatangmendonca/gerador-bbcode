@@ -1,0 +1,27 @@
+body {
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h3:after,
+h3:before {
+    content: '';
+    display: block;
+    width: 190px;
+    height: 3px;
+    background: #dc3545;
+    margin: 0 auto;
+}
+
+textarea {
+    resize: none;
+}
+
+.item-hide {
+    display: none;
+}
+
+a{
+    text-decoration: none;
+}
